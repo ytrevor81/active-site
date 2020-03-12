@@ -1,0 +1,186 @@
+/* --- Media Queries --- */
+
+@media screen and (min-width: 3000px) {
+  .contact { height: 85vh; }
+}
+
+@media screen and (max-width: 1800px) {
+  .container { width: 1400px; }
+
+  .project-image img { width: 100%; }
+  .overlay { width: 100%; }
+
+  .contact .container { margin-top: 0; }
+}
+
+@media screen and (max-width: 1600px) {
+  .container { width: 1300px; }
+  h5 { font-size: 22px; }
+  h1 { font-size: 65px; }
+  h4 { font-size: 22px; }
+  h2 { font-size: 45px; }
+
+
+  .home-button {
+    margin-top: 35px;
+    padding: 14px;
+    font-size: 18px;
+    width: 185px;
+    height: 55px;
+  }
+
+  .about-text { font-size: 18px; }
+  .about-text ul { font-size: 16px; }
+  .about-text li:before { font-size: 8px; }
+  .double-image img { width: 350px; }
+  .back-design { height: 525px; width: 350px; }
+
+  .project-info h2 { font-size: 25px; margin: 10px 0px 25px 0px; }
+  .project-info h5 { font-size: 14px; }
+  .project-info .overlap-box p { font-size: 14px; }
+  .project-info ul { font-size: 14px; }
+  .project-direct-links {
+    padding: 12px;
+    font-size: 15px;
+    width: 150px;
+    height: 45px;
+  }
+  .project-direct-links:hover { padding: 13px; }
+  .fa-3x { font-size: 2.5em; }
+
+  .project-card { width: 31%; margin-right: 20px; }
+  .project-card h2 { font-size: 25px; }
+  .project-card p { font-size: 14px; }
+}
+
+
+@media screen and (max-width: 1400px) {
+  h2 { font-size: 40px; }
+  .container { width: 1170px; }
+  .header-underline { margin-top: 75px; }
+
+  .about-text { font-size: 15px; margin-top: 35px; }
+  .about-text p { font-size: 16px; margin: 0 0 15px;  }
+  .about-text li { padding-left: 10px; padding-bottom: 5px; }
+
+  .double-image { grid-template-columns: 0; }
+  .double-image img { width: 275px; }
+  .back-design { height: 410px; width: 275px; }
+
+  .project-info h2 { font-size: 22px; margin: 10px 0px 20px 0px; }
+  .project-info .overlap-box p { font-size: 13px; }
+  .project-info ul { margin: 15px 0 25px 0; }
+  .not-first { margin-top: 150px; }
+
+  .friendly-statement { font-size: 15px; margin: 15px 0 20px 0; }
+  .contact-boxes section { margin-bottom: 5px; }
+  .contact-boxes span { line-height: 0; }
+  .contact-boxes input { height: 37px; font-size: 15px; line-height: 0; }
+  .contact-boxes textarea { font-size: 15px; margin-bottom: 25px; }
+
+  .contact-info h4 { font-size: 18px; margin-top: 10px; }
+  .contact-btn { font-size: 16px; width: 145px; height: 40px; }
+
+  footer { height: 75px; }
+  .back-to-home { width: 35px; height: 35px; padding: 8px; }
+  .back-to-home:hover { padding: 7px; }
+  .back-to-home i { font-size: 1.5em; }
+  footer h5 { font-size: 15px; margin-top: 15px; }
+}
+
+
+@media screen and (max-width: 1200px) {
+  .container { width: 970px; }
+  h5 { font-size: 18px; }
+  h1 { font-size: 55px; margin-top: 10px; }
+  h4 { font-size: 18px; }
+  .home-button {
+    margin-top: 25px;
+    padding: 10px;
+    font-size: 16px;
+    width: 150px;
+    height: 45px;
+  }
+  .home-button:hover { padding: 11px; }
+
+  .about-text p { font-size: 15px;  }
+  .about-text ul { font-size: 14px; }
+  .double-image { grid-template-columns: 1fr; }
+
+  .project-info h2 { margin: 10px 0px 10px 0px; }
+  .project-info h5 { font-size: 12px; }
+  .project-info .overlap-box p { padding: 18px; }
+  .project-info ul { margin: 10px 0 15px 0; font-size: 13px; }
+  .not-first { margin-top: 100px; }
+  .github i { font-size: 2.5em; }
+
+  .project-card h2 { font-size: 20px; }
+
+}
+
+@media screen and (max-width: 992px) {
+  .container { width: 750px; }
+  h1 { font-size: 50px; }
+
+  .about { height: 100%; }
+  .double-image { grid-template-columns: 0; }
+  .about-text ul { margin: 0; }
+
+  .reverse-col-mobile { display: flex; flex-direction: column-reverse; } /* This is to reverse the column directiuon of the second project when the screen shrinks smaller than 992px wide */
+  .project-info {
+    text-align: center;
+    margin-top: 25px; }
+  .project-info .overlap-box {
+    background-color: inherit;
+    width: 100%;
+    margin-left: 0;
+  }
+  .project-info ul {
+    justify-content: center;
+    padding: 0;
+  }
+  .project-links {
+    justify-content: center;
+  }
+  .project-direct-links {
+    padding: 10px;
+    font-size: 13px;
+    width: 125px;
+    height: 40px;
+  }
+  .left { text-align: center !important; }
+  .left-box { margin-right: 0 !important; height: 80px !important; }
+  .left ul { justify-content: center !important; }
+  .left-links { justify-content: center !important; }
+
+  .project-card { width: 100%; }
+
+  .contact { height: 100%; }
+  .contact-info { margin-top: 25px; margin-bottom: 100px; }
+
+}
+
+@media screen and (max-width: 768px) {
+  .container { width: 100%; }
+  h1 { font-size: 45px; margin-top: 0px;}
+  h5 { font-size: 16px; }
+  h4 { font-size: 16px; }
+  .home-underline { margin-top: 20px; margin-bottom: 20px; }
+
+  .about-image { margin-top: 25px; }
+
+  .contact-boxes { text-align: center; }
+
+}
+@media screen and (max-width: 550px) {
+
+  .contact-info h4 { font-size: 15px; }
+  footer h5 { font-size: 13px; }
+
+
+@media screen and (max-width: 400px) {
+}
+
+@media screen and (max-width: 350px ) {
+  .project-card ul { flex-direction: column; }
+}
