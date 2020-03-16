@@ -51,6 +51,8 @@
   .project-card { width: 31%; margin-right: 20px; }
   .project-card h2 { font-size: 25px; }
   .project-card p { font-size: 14px; }
+
+  .contact { height: 115vh; }
 }
 
 
@@ -73,6 +75,7 @@
   .not-first { margin-top: 150px; }
 
   .friendly-statement { font-size: 15px; margin: 15px 0 20px 0; }
+  .contact { height: 100vh; }
   .contact-boxes section { margin-bottom: 5px; }
   .contact-boxes span { line-height: 0; }
   .contact-boxes input { height: 37px; font-size: 15px; line-height: 0; }
@@ -149,7 +152,7 @@
     height: 40px;
   }
   .left { text-align: center !important; }
-  .left-box { margin-right: 0 !important; height: 80px !important; }
+  .left-box { margin-right: 0 !important; }
   .left ul { justify-content: center !important; }
   .left-links { justify-content: center !important; }
 
@@ -176,10 +179,9 @@
 
   .contact-info h4 { font-size: 15px; }
   footer h5 { font-size: 13px; }
-
-
-@media screen and (max-width: 400px) {
+  .input-group-lg>.input-group-addon { line-height: 1; border-right: 0; }
 }
+
 
 @media screen and (max-width: 350px ) {
   .project-card ul { flex-direction: column; }
