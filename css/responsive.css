@@ -59,7 +59,7 @@
 @media screen and (max-width: 1400px) {
   h2 { font-size: 40px; }
   .container { width: 1170px; }
-  .header-underline { margin-top: 75px; }
+  .header-underline { margin-top: 55px; }
 
   .about-text { font-size: 15px; margin-top: 35px; }
   .about-text p { font-size: 16px; margin: 0 0 15px;  }

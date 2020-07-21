@@ -10,7 +10,7 @@ h4 { font-size: 25px; color: #4D96D6; margin: 0; }
 h5 { font-size: 25px; color: #56AAF3; }
 
 .container { width: 1700px; }
-.header-underline { margin-top: 100px; }
+.header-underline { margin-top: 65px; }
 .underline { margin-top: 15px; width: 40%; border: 1px solid #CCD6F6; }
 
 
@@ -286,10 +286,6 @@ footer h5 { font-size: 20px; margin-top: 45px; }
 
 /* Email Notification */
 #messages {
-  position: absolute;
-  top: 8%;
-  color: #FAFAFA;
-  background-color: #333333;
-  border: 2px solid skyblue;
-  padding: 8px 30px 8px 8px;
+  color: #CCD6F6;
+  margin-top: 20px;
 }
