@@ -11,6 +11,11 @@
   .overlay { width: 100%; }
 
   .contact .container { margin-top: 0; }
+
+  #messages {
+    margin-top: 25px;
+  }
+
 }
 
 @media screen and (max-width: 1600px) {
@@ -83,6 +88,10 @@
 
   .contact-info h4 { font-size: 18px; margin-top: 10px; }
   .contact-btn { font-size: 16px; width: 145px; height: 40px; }
+
+  #messages {
+    margin-top: 25px;
+  }
 
   footer { height: 75px; }
   .back-to-home { width: 35px; height: 35px; padding: 8px; }
