@@ -179,6 +179,9 @@ h5 { font-size: 25px; color: #56AAF3; }
     border: none;
     transition: 0.3s;
   }
+.trailer {
+  margin-right: 25px;
+}
 
 .not-first { margin-top: 200px; }
 .left { text-align: left !important; padding: 0; }
