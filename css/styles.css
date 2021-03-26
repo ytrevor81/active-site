@@ -158,9 +158,12 @@ h5 { font-size: 25px; color: #56AAF3; }
   align-items: center;
   }
 .github { margin-right: 50px; }
+.github-left { margin-right: 0px; }
 .aliexpress-github { margin-right: 0; }
 .github i { color: #CCD6F6 }
+.github-left i { color: #CCD6F6 }
 .github i:hover { color: #4D96D6; transition: 0.3s; }
+.github-left i:hover { color: #4D96D6; transition: 0.3s; }
 .project-direct-links {
     color: #CCD6F6;
     border: 1px solid #84C6FF;
@@ -185,7 +188,7 @@ h5 { font-size: 25px; color: #56AAF3; }
 
 .not-first { margin-top: 200px; }
 .left { text-align: left !important; padding: 0; }
-.left-box { margin-left: 0 !important; margin-right: -12% !important; height: 100% !important; }
+.left-box { margin-left: 0 !important; margin-right: -12% !important; width: 105% !important; height: 100% !important; }
 .left ul { justify-content: flex-start !important; padding: 0; }
 .left ul li { margin-right: 15px; margin-left: 0; }
 .left-links { justify-content: flex-start !important; }
