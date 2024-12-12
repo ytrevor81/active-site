@@ -46,7 +46,6 @@
     var form = event.target;
     var formData = getFormData(form);
 
-    // If honeypot field is filled, abort submission
     if (formData.honeypot) {
       console.log("Honeypot triggered. Submission aborted.");
       return false;
@@ -58,7 +57,7 @@
     var url = form.action;
     var xhr = new XMLHttpRequest();
     xhr.open("POST", url);
-    xhr.setRequestHeader("Content-Type", "application/json"); // Sending JSON data
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded"); // Avoid JSON preflight
     xhr.onreadystatechange = function() {
       if (xhr.readyState === 4) {
         if (xhr.status === 200) {
@@ -73,9 +72,14 @@
       }
     };
 
-    // Send data as JSON
-    var jsonPayload = JSON.stringify(formData.data);
-    xhr.send(jsonPayload);
+    // URL encode data for x-www-form-urlencoded
+    var encodedData = Object.keys(formData.data)
+      .map(function(key) {
+        return encodeURIComponent(key) + "=" + encodeURIComponent(formData.data[key]);
+      })
+      .join("&");
+
+    xhr.send(encodedData);
   }
 
   function showSuccessMessage() {
