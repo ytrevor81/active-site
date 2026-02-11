@@ -82,6 +82,7 @@ h5 { font-size: 25px; color: #56AAF3; }
   }
 .about-text p { margin: 0 0 30px; }
 .about-text a { text-decoration: none; color: #56AAF3; }
+.about-text .home-button { margin-top: 60px; display: inline-block; }
 .about-text a:hover { color: #56AAF3; text-decoration: underline; }
 .about-text ul {
   font-size: 18px;
