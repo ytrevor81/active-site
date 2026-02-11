@@ -181,7 +181,12 @@
   h4 { font-size: 16px; }
   .home-underline { margin-top: 20px; margin-bottom: 20px; }
 
-  .about-image { margin-top: 25px; }
+  .about-text .home-button { margin-top: 20px; margin-bottom: 30px; }
+  .about-image { margin-top: 40px; }
+
+  .project-info { padding-left: 0; }
+  .project-info > p { text-align: left; }
+  .project-info h2 { text-align: center; }
 
   .contact-boxes { text-align: center; }
 
