@@ -73,6 +73,7 @@ h5 { font-size: 25px; color: #56AAF3; }
 
 /* --- About --- */
 .about { height: 100vh; text-align: left; }
+#privacy-policy { padding-top: 100px; }
 .about-text {
     padding: 0;
     margin-top: 50px;
@@ -125,18 +126,33 @@ h5 { font-size: 25px; color: #56AAF3; }
 
  /* --- Work --- */
 .work { height: 100%; text-align: left; }
-.project-container { margin-top: 50px; padding: 0; }
-.project-image { padding: 0; z-index: -1; }
-.project-image img { width: 96%; }
+.project-container { margin-top: 150px; padding: 0; }
+.project-container:first-of-type { margin-top: 50px; }
+.project-image { padding: 0; z-index: 0; position: relative; }
+.project-image img, .project-image iframe { width: 96%; }
+.video-thumbnail { position: relative; display: inline-block; }
+.video-thumbnail i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  color: rgba(255, 255, 255, 0.85);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: color 0.2s, transform 0.2s;
+}
+.video-thumbnail:hover i {
+  color: rgba(180, 180, 180, 0.85);
+  transform: translate(-50%, -50%) scale(1.1);
+}
 .flareon {
   text-align: center;
   margin-bottom: 35px;
 }
 
-.project-info { text-align: right; }
-.project-info { text-align: right; }
+.project-info { text-align: center; padding-left: 60px; }
 .project-info h5 { font-size: 15px; }
-.project-info h2 { font-size: 30px; margin: 15px 0px 35px 0px; }
+.project-info h2 { font-size: 38px; margin: 15px 0px 35px 0px; }
 .project-info .overlap-box {
     background-color: #08234B;
     width: 112%;
@@ -147,18 +163,24 @@ h5 { font-size: 25px; color: #56AAF3; }
     color: #CCD6F6;
     padding: 25px;
    }
+.project-info > p {
+    font-size: 19px;
+    color: #CCD6F6;
+    text-align: left;
+    margin-bottom: 30px;
+   }
 .project-info ul {
     display: flex;
     font-size: 16px;
     color: #CCD6F6;
     list-style: none;
-    justify-content: flex-end;
+    justify-content: center;
     margin: 25px 0 45px 0;
   }
 .project-info ul li { margin-left: 15px; }
 .project-links {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   }
 .github { margin-right: 50px; }
