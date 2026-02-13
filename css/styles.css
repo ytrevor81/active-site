@@ -153,7 +153,8 @@ h5 { font-size: 25px; color: #56AAF3; }
 
 .project-info { text-align: center; padding-left: 60px; }
 .project-info h5 { font-size: 15px; }
-.project-info h2 { font-size: 46px; margin: 15px 0px 35px 0px; }
+.project-info h2 { font-size: 42px; margin: 15px 0px 35px 0px; }
+.project-info h3 { margin: 15px 0px 35px 0px; color: #CCD6F6; }
 .project-info .overlap-box {
     background-color: #08234B;
     width: 112%;

@@ -186,7 +186,7 @@
 
   .project-info { padding-left: 0; }
   .project-info > p { text-align: left; }
-  .project-info h2 { text-align: center; }
+  .project-info h2 { text-align: center; margin-bottom: 25px; }
 
   .contact-boxes { text-align: center; }
 
