@@ -31,7 +31,7 @@ h5 { font-size: 25px; color: #56AAF3; }
     display: flex;
     align-items: center;
   }
-.watermark {
+/* .watermark {
     background-color: rgba(86,170,243,0.02);
     width: 300px;
     height: 245vh;
@@ -39,7 +39,7 @@ h5 { font-size: 25px; color: #56AAF3; }
     position: absolute;
     -webkit-transform: rotate(315deg);
     transform: rotate(315deg);
-}
+} */
 .home-block {
     display: flex;
     flex-direction: column;
