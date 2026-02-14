@@ -73,7 +73,7 @@ h5 { font-size: 25px; color: #56AAF3; }
 
 /* --- About --- */
 .about { height: 100vh; text-align: left; }
-#privacy-policy { padding-top: 100px; }
+#privacy-policy { padding-top: 100px; padding-bottom: 100px; }
 .about-text {
     padding: 0;
     margin-top: 50px;
@@ -290,9 +290,8 @@ h5 { font-size: 25px; color: #56AAF3; }
 
 /* --- Footer --- */
 footer {
-    position: absolute !important;
-    bottom: 0;
-    height: 150px;
+    position: relative;
+    height: 80px;
     background-color: #0A192F;
     padding: 0;
     text-align: center;
@@ -315,7 +314,7 @@ footer {
   padding: 10px;
 }
 .back-to-home i { color: #CCD6F6; }
-footer h5 { font-size: 20px; margin-top: 45px; }
+footer h5 { font-size: 16px; margin-top: 25px; }
 
 
 /* Email Notification */
